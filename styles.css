@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Lovelo;
+}
+
+/* MY NAME IS */
+h1,p{
+    font-family: Lovelo, sans-serif;
+}
+
+.bigdiv{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10,10vw);
+    grid-template-rows: repeat(5,20vh);
+}
+
+.minidiv1{
+    grid-row: 3/4;
+    grid-column: span 10;
+    grid-area: 3/1/4/11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    font-size: 100px;
+    font-family: Lovelo, sans-serif;
+    text-shadow: 0 0 50px gray;
+}
+
+.minidiv2{
+    grid-area: 2/1/5/11;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backtext{
+    font-size: 250px;
+    font-family: "Lovelo Line Light", sans-serif;
+    z-index: -3;
+    opacity: 50%;
+}
+
+#maintext{
+    font-size: 500px;
+    margin-left : 250px;
+    z-index: 10;
+}
+
+
+/* ABOUT ME */
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutme > .tag{
+    opacity: 75%;
+}
+
+.info{
+    max-width: 600px;
+    opacity: 50%;
+}
+
+
+/* SKILLS */
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* min-width: 800px; */
+}
+
+.skill{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 50%;
+}
+
+
+/* FOOTER */
+.footer{
+    margin-top: 100px;
+    background-color: #00000010;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer *{
+    font-family: Lovelo, sans-serif;
+    color: black;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+#footer-name{
+    font-size: 30px;
+    font-family: "Lovelo Line Bold" , Lovelo Line , sans-serif;
+}
