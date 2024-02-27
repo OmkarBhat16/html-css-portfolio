@@ -9,9 +9,9 @@ body{
 
 @font-face {
     font-family: 'Lovelo';
-    src: url('fonts/Lovelo\ Black.otf.otf') format('opentype');
-    src: url('fonts/Lovelo\ Line\ Light.otf.otf') format('opentype');
-    src: url('fonts/Lovelo\ Line\ Bold.otf.ttf') format('opentype');
+    src: url('./fonts/Lovelo\ Black.otf') format('opentype');
+    src: url('./fonts/Lovelo\ Line\ Light.otf') format('opentype');
+    src: url('./fonts/Lovelo\ Line\ Bold.otf') format('opentype');
 }
 /* 
 @font-face {
