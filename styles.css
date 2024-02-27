@@ -5,9 +5,28 @@ body{
     font-family: Lovelo;
 }
 
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'Lovelo';
+    src: url('fonts/Lovelo\ Black.otf.otf') format('opentype');
+    src: url('fonts/Lovelo\ Line\ Light.otf.otf') format('opentype');
+    src: url('fonts/Lovelo\ Line\ Bold.otf.ttf') format('opentype');
+}
+/* 
+@font-face {
+    font-family: 'Lovelo';
+}
+
+@font-face {
+    font-family: 'Lovelo';
+    font-style: italic;
+} */
+
+
 /* MY NAME IS */
 h1,p{
-    font-family: Lovelo, sans-serif;
+    font-family: "Lovelo Black", sans-serif;
 }
 
 .bigdiv{
@@ -28,7 +47,7 @@ h1,p{
 
 #text{
     font-size: 100px;
-    font-family: Lovelo, sans-serif;
+    font-family: "Lovelo Black", sans-serif;
     text-shadow: 0 0 50px gray;
 }
 
@@ -102,7 +121,7 @@ h1,p{
 }
 
 .footer *{
-    font-family: Lovelo, sans-serif;
+    font-family: "Lovelo Black", sans-serif;
     color: black;
     opacity: 100%;
     text-decoration: none;
@@ -110,5 +129,5 @@ h1,p{
 
 #footer-name{
     font-size: 30px;
-    font-family: "Lovelo Line Bold" , Lovelo Line , sans-serif;
+    font-family: "Lovelo Line Light" , "Lovelo Black" , sans-serif;
 }
